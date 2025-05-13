@@ -60,7 +60,7 @@ FROM COLOMBIANOSENELEXTERIOR.dbo.Colombianos_registrados_en_el_exterior
 ORDER BY Estatura ASC;
  
 -- Se obtienen las distintas Ciudades de Nacimiento sin repetir
---IMAGEN Nº 11 SELECT DISTINCT ESTATURA
+--IMAGEN Nº 11 SELECT DISTINCT CIUDAD DE NACIMIENTO
 SELECT DISTINCT Ciudad_de_Nacimiento
 FROM COLOMBIANOSENELEXTERIOR.dbo.Colombianos_registrados_en_el_exterior
 ORDER BY Ciudad_de_Nacimiento ASC;
